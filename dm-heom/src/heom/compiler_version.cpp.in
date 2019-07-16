@@ -1,0 +1,25 @@
+// This file is part of DM-HEOM (https://github.com/noma/dm-heom)
+//
+// Copyright (c) 2015-2019 Matthias Noack, Zuse Institute Berlin
+//
+// Licensed under the 3-clause BSD License, see accompanying LICENSE,
+// CONTRIBUTORS.md, and README.md for further information.
+
+#include "heom/compiler_version.hpp"
+
+#define COMPILER_ID "@CMAKE_CXX_COMPILER_ID@"
+#define COMPILER_VERSION "@CMAKE_CXX_COMPILER_VERSION@"
+
+const char COMPILER_ID_STR[] = COMPILER_ID;
+const char COMPILER_VERSION_STR[] = COMPILER_VERSION;
+
+void write_compiler_version(std::ostream& out)
+{
+	out << "COMPILER_ID                   "
+	    << COMPILER_ID_STR
+	    << std::endl;
+
+	out << "COMPILER_VERSION              "
+	    << COMPILER_VERSION_STR
+	    << std::endl;
+}

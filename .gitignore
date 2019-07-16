@@ -1,0 +1,7 @@
+build*/
+results*/
+*.dat
+*.graph*
+*.part*
+*.idea
+

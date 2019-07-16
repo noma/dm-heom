@@ -1,0 +1,18 @@
+[submodule "thirdparty/bmt"]
+	path = thirdparty/bmt
+	url = https://github.com/noma/bmt.git
+[submodule "thirdparty/misc"]
+	path = thirdparty/misc
+	url = https://github.com/noma/misc.git
+[submodule "thirdparty/typa"]
+	path = thirdparty/typa
+	url = https://github.com/noma/typa.git
+[submodule "thirdparty/ocl"]
+	path = thirdparty/ocl
+	url = https://github.com/noma/ocl.git
+[submodule "thirdparty/num"]
+	path = thirdparty/num
+	url = https://github.com/noma/num.git
+[submodule "thirdparty/eigen"]
+	path = thirdparty/eigen
+	url = https://github.com/eigenteam/eigen-git-mirror
