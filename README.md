@@ -5,10 +5,10 @@ Dynamics with the Hierarchical Equations of Motion approach [1].
 
 DM-HEOM was developed by Matthias Noack based on physical models
 and prototypes provided by Tobias Kramer, Yaroslav Zelinskyi, and Mirta 
-RodrÌguez. Implementation details are described in [2] (computational part)
+Rodr√≠guez. Implementation details are described in [2] (computational part)
 and in [3] (equations used, physical reference spectra).
 
-Please see the Wiki for the documentation and examples.
+**Please see the [Wiki](https://github.com/noma/dm-heom/wiki) for the documentation and examples.**
 
 ## Acknowledgements
 
@@ -24,7 +24,7 @@ in the framework of:
 We thank the North-German Supercomputing Alliance (HLRN) for providing
 computational resources.
 
-We further thank L. Deecke, J. Launer, L. Gaedke-Merzh‰user, and D. Reusche
+We further thank L. Deecke, J. Launer, L. Gaedke-Merzh√§user, and D. Reusche
 for also contributing to DM-HEOM. A full list of contributors can be found
 in the CONTRIBUTORS.md file.
 
@@ -47,7 +47,7 @@ Motion", 2018 IEEE International Parallel and Distributed Processing
 Symposium Workshops (IPDPSW), Vancouver, BC, 2018, pp. 947-956.
 https://doi.org/10.1109/IPDPSW.2018.00149
 
-[3] T. Kramer, M. Noack, A. Reinefeld, M. RodrÌguez, Y. Zelinskyi,
+[3] T. Kramer, M. Noack, A. Reinefeld, M. Rodr√≠guez, Y. Zelinskyi,
 "Efficient calculation of open quantum system dynamics and 
 time-resolved spectroscopy with distributed memory HEOM (DM-HEOM)",
 2018, Journal of Computational Chemistry.
